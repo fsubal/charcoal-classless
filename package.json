@@ -1,0 +1,25 @@
+{
+  "name": "arche",
+  "version": "1.0.0",
+  "style": "index.js",
+  "author": "subal <subal@pixiv.co.jp>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "NODE_ENV=production postcss ./src/index.css -o bundle/index.min.css"
+  },
+  "devDependencies": {
+    "@charcoal-ui/tailwind-config": "alpha",
+    "@types/tailwindcss": "^3.1.0",
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.4",
+    "parcel": "^2.0.0-beta.3.1",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.2",
+    "postcss-modules": "^4.0.0",
+    "prettier": "^2.3.0",
+    "tailwindcss": "^3.1.8"
+  },
+  "packageManager": "yarn@3.2.3"
+}
