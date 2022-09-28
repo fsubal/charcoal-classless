@@ -48,10 +48,10 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable
       - name: Build
-        run:
-          - yarn build
-          - cp example/index.html public
-          - cp bundle/index.min.css public
+        run: |
+          yarn build
+          cp example/index.html public
+          cp bundle/index.min.css public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
