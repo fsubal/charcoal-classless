@@ -5,18 +5,15 @@
 ## 使い方
 
 ```html
-<link rel="stylesheet" href="https://fsubal.github.io/charcoal-classless/index.min.css">
+<link
+  rel="stylesheet"
+  href="https://fsubal.github.io/charcoal-classless/index.min.css"
+/>
 ```
 
 ## 様子
 
-デモコードは `/example` 以下参照。デモページの起動には Parcel を使います
-
-```
-yarn parcel example/index.html
-```
-
-このページは一切 CSS のクラスを当てていません。
+デモコードは `/example` 以下参照。このページは一切 CSS のクラスを当てていません。
 
 | PC                      | mobile                 |
 | ----------------------- | ---------------------- |
