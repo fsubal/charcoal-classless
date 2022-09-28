@@ -2,6 +2,12 @@
 
 [pixiv/charcoal](https://github.com/pixiv/charcoal) をベースにした classless CSS framework です。
 
+## 使い方
+
+```html
+<link rel="stylesheet" href="https://fsubal.github.io/charcoal-classless/index.min.css">
+```
+
 ## 様子
 
 デモコードは `/example` 以下参照。デモページの起動には Parcel を使います
