@@ -1,8 +1,7 @@
 {
-  "name": "arche",
+  "name": "charcoal-classless",
   "version": "1.0.0",
   "style": "index.js",
-  "author": "subal <subal@pixiv.co.jp>",
   "license": "MIT",
   "private": true,
   "scripts": {

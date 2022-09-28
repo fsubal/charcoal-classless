@@ -1,4 +1,4 @@
-# arche（ἀρχή）
+# charcoal-classless
 
 [pixiv/charcoal](https://github.com/pixiv/charcoal) をベースにした classless CSS framework です。
 
@@ -111,11 +111,3 @@ pixiv っぽい表になります。
 ### `input[type=file]`
 
 ちょっとボタンっぽい見た目になりますが中身はほぼほぼブラウザのデフォルトです
-
-## 名前
-
-> アルケー（古希: ἀρχή）とは、はじめ・始源・原初・根源・原理・根拠」等のことであり、哲学用語としては「万物の始源」また「（宇宙の）根源的原理」を指す。[^1]
-
-[^1]: https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AB%E3%82%B1%E3%83%BC
-
-<ruby>元素<rt>エレメンツ</rt></ruby>が発見されてない時代の万物のもととか、そういうニュアンスです。
