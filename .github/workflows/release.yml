@@ -50,6 +50,7 @@ jobs:
       - name: Build
         run: |
           yarn build
+          mkdir -p public
           cp example/index.html public
           cp bundle/index.min.css public
       - name: Upload artifact
