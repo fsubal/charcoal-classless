@@ -131,13 +131,13 @@
     @apply px-24 py-[9px] rounded-oval font-bold;
     @apply focus:outline-none focus:ring-4 focus:ring-brand-outline;
 
-    @apply text-text2 hover:text-text2-hover active:text-text2-press;
-    @apply bg-surface3 hover:bg-surface3-hover active:bg-surface3-press;
-
-    &[type="submit"] {
-      @apply text-text5 hover:text-text5-hover active:text-text5-press;
-      @apply bg-brand hover:bg-brand-hover active:bg-brand-press;
+    &[type="button"] {
+      @apply text-text2 hover:text-text2-hover active:text-text2-press;
+      @apply bg-surface3 hover:bg-surface3-hover active:bg-surface3-press;
     }
+
+    @apply text-text5 hover:text-text5-hover active:text-text5-press;
+    @apply bg-brand hover:bg-brand-hover active:bg-brand-press;
   }
 
   a[role="button"] {
